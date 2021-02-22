@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Slider</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+
+        <div class="select-container">
+            <p>Select:</p>
+            <input type="submit" value="color" id='color'>
+            <input type="submit" value="backgroundColor" id='bg-color'>
+        </div>
+
+        <div class="color-container">
+            <div class="color-container__slider">
+                <label for="red" class="red">Red:</label>
+                <input type="range" id="red" min="0" max="255" value="0">
+                <label for="green" class="green">Green:</label>
+                <input type="range" id="green" min="0" max="255" value="0">
+                <label for="blue" class="blue">Blue:</label>
+                <input type="range" id="blue" min="0" max="255" value="0">
+            </div>
+    
+            <div class="color-container__text" id='text-bg'>
+                <p id=text> 
+                    Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Fugiat mollitia illum 
+                    harum ipsum iste corporis, officia odio 
+                    quos natus ullam sapiente porro hic dolor 
+                    ducimus!
+                </p>
+            </div>
+        </div>
+
+    </section>
+    
+
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
